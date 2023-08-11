@@ -180,17 +180,16 @@
 
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me!</span></h2>
-        <!-- <form action="https://formsubmit.co/elgroubas@gmail.com" method="POST"> -->
-        <form action="">
+        <form action="https://formspree.io/f/xbjvgkoo" method="POST" enctype="multipart/form-data">
             <div class="input-box">
-                <input type="text" placeholder="Full Name" required>
-                <input id="email" type="email" placeholder="Email Address" required>
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input id="email" type="email" name="email" placeholder="Email Address" required>
             </div>
             <div class="input-box">
                 <input id="tlf" type="number" name="phone" placeholder="Mobile Number" required>
-                <input type="text" placeholder="Email Subject" required>
+                <input type="text" name="subject" placeholder="Email Subject" required>
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
             <input type="submit" onclick="p()" value="Send message" class="btn">
         </form>
     </section>
